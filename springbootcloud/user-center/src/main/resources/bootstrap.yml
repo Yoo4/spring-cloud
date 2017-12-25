@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: config-service
+        enabled: true
+      label: master  #git分支
+      name: uc
+      profile: dev
