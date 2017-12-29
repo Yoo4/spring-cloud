@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="service-config" />
+        <module name="service-eureka" />
+        <module name="service-use" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.7" />
+      <module name="service-config" target="1.6" />
+      <module name="service-eureka" target="1.6" />
+      <module name="service-use" target="1.6" />
+      <module name="service-use1" target="1.8" />
+      <module name="service-zuul" target="1.6" />
+      <module name="springcloud-learning" target="1.6" />
+      <module name="use-service" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
