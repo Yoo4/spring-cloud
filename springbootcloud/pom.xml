@@ -6,7 +6,11 @@
 
     <groupId>com</groupId>
     <artifactId>spring-boot-cloud</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>user-two</module>
+    </modules>
 
 
 </project>

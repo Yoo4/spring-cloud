@@ -4,17 +4,24 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 server:
   port: 8771
+
 spring:
   application:
     name: zuul-service
+
 zuul:
-  prefix: /api
+#  prefix: /api
   routes:
 #    api-a:
-#      path: /a/**
-#      serviceId: service-ribbon-1
+#      path: /auth/**
+#      serviceId: auth-service
     api-b:
-      path: /b/**
-      serviceId: feign-service
+      path: /api/**
+      serviceId: user-service
+#      serviceId: feign-service
+#      url: http://localhost:8781/
+#      url: http://localhost:8782/
+
 #      stripPrefix: false   #不移除前缀api-b，访问路径为/api/b/test --> user-center   /b/test(需要在对应函数RequestMapping前加/b)
 #      默认时 /api/b/test --> user-center   /test
+

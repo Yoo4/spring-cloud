@@ -2,7 +2,6 @@ spring:
   application:
     name: user-center
 
-
 eureka:
   client:
     service-url:
