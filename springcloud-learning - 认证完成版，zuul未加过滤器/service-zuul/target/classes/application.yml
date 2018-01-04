@@ -1,0 +1,28 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
+server:
+  port: 8001
+
+spring:
+  application:
+    name: service-zuul
+
+zuul:
+#  prefix: /api   //可以加前缀
+  routes:
+    user-service:
+      path: /uc/**
+      serviceId: service-use
+    auth-server:
+      path: /auth/**
+      serviceId: server-auth
+
+jwt:
+#  expire: 3600
+#  pri-key:
+#    path: F:\IdeaProjects\cloud\springcloud-learning\service-zuul\src\main\resources\pri.key
+  pub-key:
+    path: F:\IdeaProjects\cloud\springcloud-learning\service-zuul\src\main\resources\pub.key
