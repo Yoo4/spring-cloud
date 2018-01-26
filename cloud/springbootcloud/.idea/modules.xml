@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-service/feign-service.iml" filepath="$PROJECT_DIR$/feign-service/feign-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-center/service-center.iml" filepath="$PROJECT_DIR$/service-center/service-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootcloud.iml" filepath="$PROJECT_DIR$/springbootcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-center/user-center.iml" filepath="$PROJECT_DIR$/user-center/user-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-one/user-one.iml" filepath="$PROJECT_DIR$/user-one/user-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-two/user-two.iml" filepath="$PROJECT_DIR$/user-two/user-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/zuul-service/zuul-service.iml" />
+    </modules>
+  </component>
+</project>
