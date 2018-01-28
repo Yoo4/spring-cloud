@@ -1,2 +1,0 @@
-# AG-Study
-AG-Study
