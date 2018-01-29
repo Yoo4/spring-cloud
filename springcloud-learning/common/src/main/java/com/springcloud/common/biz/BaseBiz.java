@@ -14,12 +14,6 @@ import java.lang.reflect.ParameterizedType;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Mr.AG
- * Date: 17/1/13
- * Time: 15:13
- * Version 1.0.0
- */
 public abstract class BaseBiz<M extends Mapper<T>, T> {
     @Autowired
     protected M mapper;
