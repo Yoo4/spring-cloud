@@ -3,6 +3,7 @@ package com.springcloud.common.biz;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 
+import com.springcloud.common.exception.BaseException;
 import com.springcloud.common.util.Query;
 import com.springcloud.common.vo.TableResultResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +33,7 @@ public abstract class BaseBiz<M extends Mapper<T>, T> {
     }
 
 
-    public T selectById(Object id) {
+    public T selectById(Object id) throws BaseException {
         return mapper.selectByPrimaryKey(id);
     }
 

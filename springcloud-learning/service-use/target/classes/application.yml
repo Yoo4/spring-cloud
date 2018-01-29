@@ -34,3 +34,8 @@ eureka:
 
 server:
   port: 8800
+
+jwt:
+  token-header: access-token
+  pub-key:
+    path: F:\IdeaProjects\cloud\springcloud-learning\service-use\src\main\resources\pub.key

@@ -1,15 +1,16 @@
 spring:
   application:
-    name: server-config
+    name: config-service
   cloud:
     config:
       server:
         git:
-          uri: https://git.oschina.net/geek_qi/AG-Config.git
+          uri: https://github.com/itOcean/spring-cloud/
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka/
+
 server:
   port: 8002
 

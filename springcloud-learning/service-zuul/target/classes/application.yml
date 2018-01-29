@@ -11,7 +11,18 @@ spring:
     name: service-zuul
 
 zuul:
+  prefix: /api   #所有路径公共的前缀
   routes:
-    api-a:
+    user-service:
       path: /uc/**
       serviceId: service-use
+    auth-server:
+      path: /auth/**
+      serviceId: server-auth
+
+jwt:
+#  expire: 3600
+#  pri-key:
+#    path: F:\IdeaProjects\cloud\springcloud-learning\service-zuul\src\main\resources\pri.key
+  pub-key:
+    path: F:\IdeaProjects\cloud\springcloud-learning\service-zuul\src\main\resources\pub.key
