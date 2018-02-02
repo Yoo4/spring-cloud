@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/springcloud/common/util/jwt/JWTHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -721,7 +721,7 @@
       <workItem from="1515053269895" duration="5322000" />
       <workItem from="1515114155020" duration="7406000" />
       <workItem from="1517226468266" duration="238000" />
-      <workItem from="1517226940419" duration="91000" />
+      <workItem from="1517226940419" duration="657000" />
     </task>
     <servers />
   </component>
@@ -758,7 +758,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80057000" />
+    <option name="totallyTimeSpent" value="80623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1188,7 +1188,7 @@
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/springcloud/common/util/jwt/JWTHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>
