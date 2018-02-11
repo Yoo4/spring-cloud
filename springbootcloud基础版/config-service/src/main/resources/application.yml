@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/itOcean/spring-cloud/
+
+server:
+    port: 8772 #定义服务的端口
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
